@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  padding: 90px 20px 0;
+}
+.header {
+  background-color: mediumorchid;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-link {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.pedido-link:hover {
+  background-color: violet;
+  transition: 0.5s;
+}
+
+.pedido-link {
+  padding: 1px 2px;
+  border-radius: 3px;
+}
+.cake {
+  width: 80px;
+  border: none;
+  background: none;
+  display: inline;
+  padding: 0 20px;
+}
